@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"></html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div th:fragment="navigation">
+        <!-- Site Navigation fragment -->
+        <nav>
+            <a href="/" th:href="@{/}">Home Page</a>
+            <a href="/about" th:href="@{/about}">About</a>
+        </nav>
+        <!-- End Site Navigation fragment -->
+    </div>
+
+</body>
+</html>
